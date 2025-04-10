@@ -6,7 +6,8 @@
 Micro.mcp is now included in the official Model Context Protocol Python SDK as micro.mcp
 
 ---
-
+</div>
+<div align="left">
 ## Overview
 
 The Model Context Protocol allows applications to provide context for LLMs in a standardized way, separating the concerns of providing context from the actual LLM interaction. This Python SDK implements the full MCP specification, making it easy to:
@@ -15,3 +16,5 @@ The Model Context Protocol allows applications to provide context for LLMs in a 
 - Create MCP servers that expose resources, prompts and tools
 - Use standard transports like stdio and SSE
 - Handle all MCP protocol messages and lifecycle events
+
+</div>
