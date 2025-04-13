@@ -12,6 +12,11 @@ def add(a: int, b: int) -> int:
     return a + b
 
 
+@mcp.tool()
+def what_is_hawky() -> str:
+    """What is Hawky?"""
+    return "Hawky is a microservice platform that allows you to build, deploy, and manage microservices with ease."
+
 # Add a dynamic greeting resource
 @mcp.resource("greeting://{name}")
 def get_greeting(name: str) -> str:

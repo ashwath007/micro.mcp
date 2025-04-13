@@ -1,0 +1,33 @@
+[project]
+name = "micromcp"
+version = "0.1.0"
+description = "MicroMCP - A microservices-based platform"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+dependencies = [
+    "grpcio>=1.60.0",
+    "grpcio-tools>=1.60.0",
+    "protobuf>=4.25.1",
+    "click>=8.1.7",
+    "rich>=13.7.0",
+    "mcp[cli]>=1.6.0",
+]
+
+[project.optional-dependencies]
+cli = [
+    "click>=8.1.7",
+    "rich>=13.7.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/micromcp"]
+
+[tool.uv.workspace]
+members = [
+    "mcp-server-demo",
+]
