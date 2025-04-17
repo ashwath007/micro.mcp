@@ -21,3 +21,8 @@ The Model Context Protocol allows applications to provide context for LLMs in a 
 - Handle all MCP protocol messages and lifecycle events
 
 </div>
+
+## Version
+<div>
+  
+</div>
