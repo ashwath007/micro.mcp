@@ -22,7 +22,16 @@ The Model Context Protocol allows applications to provide context for LLMs in a 
 - Handle all MCP protocol messages and lifecycle events
 
 </div>
+<div>
+<b>🚀 Getting Started</b>
 
+Hawky's MCP servers use the Hawky Connect API to manage auth and make API requests. To run an MCP server, you'll need a Hawky project and Hawky API credentials.
+
+Sign up for Hawky
+Create a project. Any accounts connected via MCP will be stored here.
+Create a Hawky OAuth client
+Check out the README in the repo for the most up-to-date guide on getting your server up and running.
+</div>
 Version
 <div>
     <li>Mini API MCP Middleware</li>
