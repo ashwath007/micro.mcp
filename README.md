@@ -35,4 +35,8 @@ Check out the README in the repo for the most up-to-date guide on getting your s
 Version
 <div>
     <li>Mini API MCP Middleware</li>
+    <li>API to MCP Converter</li>
+    <li>Auth Middleware</li>
+    <li>User Verification</li>
+    <li>Role and Passouts</li>
 </div>
