@@ -43,3 +43,9 @@ Version
 <h3>
 Plan
 </h3>
+
+    <li>Mini API MCP Middleware</li>
+    <li>API to MCP Converter</li>
+    <li>Auth Middleware</li>
+    <li>User Verification</li>
+    <li>Role and Passouts</li>
