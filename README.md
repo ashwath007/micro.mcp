@@ -20,6 +20,7 @@ The Model Context Protocol allows applications to provide context for LLMs in a 
 - Create MCP servers that expose resources, prompts and tools
 - Use standard transports like stdio and SSE
 - Handle all MCP protocol messages and lifecycle events
+- 
 
 </div>
 <div>
