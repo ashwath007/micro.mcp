@@ -4,3 +4,4 @@ concepts
 
 
 pud file
+pud cargo --build
