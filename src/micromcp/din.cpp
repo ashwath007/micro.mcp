@@ -49,5 +49,5 @@ private:
     std::string llm_output;  // Simulated LLM output containing tool call in JSON
 
 public:
-    // Simulate LLM response with embedded tool call JSON
     std::string generate_response(const std::string& user_query)
+
