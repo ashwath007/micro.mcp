@@ -20,6 +20,14 @@ struct Tool {
     void (*function)(const json& args);   // Pointer to the function, taking JSON args
 };
 
+struct Tool_one {
+    std::string name;
+    std::string description;
+    std::vector<std::string> parameters;  // Parameter names expected
+    void (*function)(const json& args);   // Pointer to the function, taking JSON args
+};
+
+
 // Global registry of tools
 std::map<std::string, Tool> tool_registry;
 
