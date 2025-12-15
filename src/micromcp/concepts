@@ -9,3 +9,6 @@ pud calls fields --envs
 
 -- din.cpp export 
 -- cargo build din.cpp
+
+
+-- cpp binding.cpp
