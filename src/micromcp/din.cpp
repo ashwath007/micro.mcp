@@ -11,6 +11,7 @@ using json = nlohmann::json;
 // Forward declaration for tool functions
 void add_numbers(int a, int b);
 void get_weather(const std::string& city);
+voide get_feather_init(const std::string& initf)
 
 // A simple Tool struct to represent a callable tool
 struct Tool {
