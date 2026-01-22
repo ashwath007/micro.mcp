@@ -29,6 +29,14 @@ void printDirectoryTree(const std::string& path, int depth = 0) {
     }
 }
 
+global core = 0;
+void explainer_buffer() {
+    if (core == 0){
+        std::cout << "Core perf 0";
+        return false;
+    }
+}
+
 int main() {
     std::string startPath = ".";  // Current directory; change as needed
     std::cout << "Directory tree of: " << fs::absolute(startPath) << "\n";
